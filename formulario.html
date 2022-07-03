@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Kioto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!-- Mobile:480px -->
+	<link rel="stylesheet" href="mobile.css"/>
+	<!-- Tablet:801px a 1366px -->
+	<link href="desktop.css" rel="stylesheet" media="screen and (min-width:801px)" />
+	<!-- Tablet:481px a 800px -->
+	<link href="tablet.css" rel="stylesheet" media="screen and (min-width:481px) and (max-width:800px)" />
+</head>
+<body id="cuerpoS">
+	
+	<header id="portadaS">
+		<nav>
+			<div>
+				<a href="#botones" id="menu">Menu</a>
+				<ul id="botones">
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="itinerario.html">TOUR</a></li>
+					<li><a href="eventos.html">EVENTOS</a></li>
+					<li class="navegacion"><a href="#">SUSCRÍBETE</a></li>
+					<li class="ocultar"><a href="#"><span id="cerrar">Cerrar</span></a></li>
+				</ul>
+			</div>
+		</nav>
+		<h1>Suscríbete</h1>
+	</header>
+
+	<main id="mainsub">
+		<div id="tituloformulario1">
+			<h2>Suscríbete y entérate de las últimas noticias</h2>
+			<p>Oficina Nacional de Turismo Japón</p>
+		</div>
+		<form id="formsub" action="suscripcion.php" method="post" enctype="multipart/form-data">
+			<div class="formizq">
+				<h3>Kioto</h3>
+				<div class="nate">
+					<div>
+						<span>Nombre</span>
+						<input required autocomplete="off" type="text" name="Nombre-o-Alias" placeholder="Nombre"/>
+					</div>	
+					<div>
+						<span>Apellido</span>
+						<input required autocomplete="off" type="text" name="Apellido" placeholder="Apellido"/>
+					</div>
+					<div>
+						<span>Teléfono</span>
+						<input autocomplete="off" type="text" name="Telefono" placeholder="Telefono"/>
+					</div>			
+					<div>
+						<span> Email</span>
+						<input required autocomplete="off" type="text" name="Email" placeholder="Escribe tu email"/>
+					</div>
+				</div>
+			</div>
+
+			<div class="formder">
+				<div class="nate2">
+					<h3>Eres...</h3>
+					<div>
+						<label>
+							<input required type="radio" name="Eres" value="Particular"/>
+							Particular
+						</label>
+					</div>
+					<div>
+						<label>
+							<input required type="radio" name="Eres" value="Profesional del sector Turismo"/>
+							Profesional del sector Turismo
+						</label>
+					</div>
+					<div>
+						<label>
+							<input required type="radio" name="Eres" value="Medio de comunicacion"/>
+							Medio de comunicacion
+						</label>
+					</div>
+					<div>
+						<span>Nombre de la empresa</span>
+						<input id="empresa" autocomplete="off" type="text" name="Empresa" placeholder="Nombre de la empresa"/>
+					</div>
+			
+					
+					<h3>Deseas suscribirte a comunicaciónes para:</h3>
+					<div>
+						<label>
+							<input required type="radio" name="Suscripcion" value="Viajeros"/>
+							Viajeros
+						</label>
+					</div>
+					<div>
+						<label>
+							<input required type="radio" name="Suscripcion" value="Empresas, medios, agencias de Viajeros"/>
+							Empresas, medios, agencias de viaje
+						</label>
+					</div>
+					<div>
+						<label>
+							<input required id="privacidad" type="checkbox" name="Terminos" value="acepto" checked/>
+							Al crear una cuenta muestras tu conformidad con nuestro Términos de Servicio y Política de Privacidad
+						</label>
+					</div>
+					<input id="botonsub" type="submit" value="¡Suscríbete!"/>
+					<p>Puedes consultar nuestra Política de Privacidad <a href="#">aquí</a></p>
+				</div>
+			</div>
+		</form>
+
+		<div id="tituloformulario2">
+			<h2>Explora prefecturas cercanas</h2>
+			<p>Eventos, transporte, barrios, clima y mucho más</p>
+		</div>
+
+		<div id="prefecturas">
+			<ul id="listaprefecturas">
+				<li id="shiga"><a href="#">Shiga</a></li>
+				<li id="nara"><a href="#">Nara</a></li>
+				<li id="osaka"><a href="#">Osaka</a></li>
+				<li id="kioto"><a href="#">Kioto</a></li>
+				<li id="hyogo"><a href="#">Hyogo</a></li>
+				<li id="wakayama"><a href="#">Wakayama</a></li>
+			</ul>
+		</div>
+	</main>
+	<footer id="footer">
+		<ul id="redes">
+			<li id="facebook"><a href="#">Facebook</a></li>
+			<li id="instagram"><a href="#">Instagram</a></li>
+			<li id="twitter"><a href="#">Twitter</a></li>
+			<li id="youtube"><a href="#">Youtube</a></li>
+		</ul>
+		<p>Materia: Diseño y Programación Web | Docente: Mabel Garcia | Entrega Final: Sitio Web Ciudad | Escuela Da Vinci: Primer Cuatrimestre<br/>
+		Copyright 2021 Leandro Vedia</p>
+	</footer>
+</body>
+</html>
+
+
+
+

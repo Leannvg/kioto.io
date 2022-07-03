@@ -1,0 +1,679 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cuerpo {
+  width:1366px;
+}
+
+#botones{
+  display:block;
+  margin-right: 20px;
+  text-align:right;
+}
+
+#botones li {
+    display:inline-block;
+    list-style-type: none;
+}
+
+#menu, #cerrar {
+  display: none;
+}
+
+#botones a {
+  width: auto;
+  text-align: center;
+  font-size: 18px;
+  display:inline-block;
+  text-decoration: none;
+  font-family:Spartan,Tahoma;
+  color:white;
+  padding:auto;
+  margin:auto;
+}
+
+#botones a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+#navegacion{
+  background:white;
+  border-radius: 20px;
+}
+
+#navegacion a{
+  color: black;
+}
+
+#botones .ocultar{
+  display: none;
+}
+
+header {
+  background-image: url(imagenes/index/portada.jpg);
+  display:inline-block;
+  width: 1366px;
+  height: 620px;
+}
+
+#mainkioto {
+  display: inline-block;
+  font-family: spartan, tahoma;
+  font-size: 19px;
+  text-align:center;
+  width: 1021px;
+  margin-left: 173px;
+  line-height: 28px;
+}
+
+#welcome {
+  width:792px;
+  display: inline-block;
+}
+
+iframe {
+  margin-top: 20px;
+  border: none;
+}
+
+.llegartexto, .mapa{
+  width:500px;
+  display: inline-block;
+}
+
+.llegartexto {
+  vertical-align: top;
+  text-align: left;
+  margin-right: 10px;
+}
+
+
+#iconosllegar{
+  width: 490px;
+}
+
+.listallegar {
+  padding:87px 0px 0px 0px;
+  column-count: 4;
+  list-style-type: none;
+}
+
+.mapa{
+  position: relative;
+  padding: 0% 0% 52% 0%;
+  height:0;
+  overflow:hidden;
+}
+
+.mapa iframe {
+    margin-top: 0px;
+    border: none;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#visitantes h2 {
+  text-align: left;
+}
+
+#fotos {
+  width: 1020px;
+  margin:0 auto;
+  vertical-align: bottom;
+  text-align: center;
+  overflow: visible;
+}
+
+#fotos img {
+  margin-top: 0px;
+}
+
+#fotos p {
+  margin-top: 3px;
+}
+
+#salmon{
+  margin-top: 0px;
+}
+
+.galeria {
+  width: 1000px;
+  columns: 4;
+}
+
+#fotos a{
+  -webkit-filter: grayscale(100%)
+}
+
+#fotos a:hover{
+  -webkit-filter: contrast(120%);
+}
+
+
+#historia {
+  margin-top: 50px;
+  text-align: left;
+  width: 1021;
+}
+
+#historiatexto::first-letter{
+  font-size: 85px;
+  color: transparent;
+  background-image: url(imagenes/index/H.png);
+  background-repeat: no-repeat;
+  background-position-y: center ;
+}
+
+#historiatexto, #historiafotos {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#historiatexto {
+  width: 764px;
+  margin-top: 0px;
+}
+
+#historiafotos {
+  column-count: 1;
+  width: 179px;
+  text-align: right;
+  margin-left: 30px;
+}
+
+#footer {
+  margin-top: 0px;
+  background-image: url(imagenes/footer.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+  padding-top: 135px;
+}
+
+#footer p {
+  padding: 10px 0px 20px 0px;
+  margin-left: 30px;
+  width: 1030px;
+  font-size: 14px;
+  margin: 0 auto;
+}
+
+/*<----------------------------------------Tour---------------------------------------->*/ 
+
+
+#cuerpoT {
+  background-color: white;
+  width:1366px;
+  margin:0 auto;
+  background-image: url(imagenes/index/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+#portadaT {
+  background-image: url("imagenes/tour/portada.jpg");
+  display:inline-block;
+  width: 1366px;
+  height: 618px;
+  background-repeat: no-repeat;
+}
+
+#maintour {
+  display: inline-block;
+  font-family: spartan, tahoma;
+  font-size: 19px;
+  text-align:center;
+  width: 1064px;
+  margin-left: 152px;
+  line-height: 28px;
+}
+
+#iconostour {
+  width: 440px;
+  margin-left: 15px;
+}
+
+.listaiconos{
+  margin: 0 auto;
+  padding: 20px 0px 0px 0px;
+  column-count: 3;
+  list-style-type: none;
+  width: 1064px;
+}
+
+#restaurante a, #alojamiento a, #transporte a{
+  margin-left: -25px;
+  font-size: 20px;
+}
+
+#titulotour {
+  margin-top: 40px;
+  line-height: 30px;
+}
+
+#top {
+  margin: 20px 0px 0px 0px;
+  background-color: #cdcdcd;
+  height: 346px;
+  width: 1064px;
+  border-radius: 0px;
+}
+
+.topfoto, .toptexto{
+  display: inline-block;
+}
+
+.topfoto {
+  margin-right: 20px;
+  width:516px;
+}
+
+.toptexto {
+  vertical-align: top;
+  font-size: 14px;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  height: 340px;
+  color:black;
+  width:520px;
+}
+
+.toptexto h3{
+  text-align: center;
+  font-size:24px;
+}
+
+.toptexto p{
+  vertical-align: middle;
+  margin-bottom: 0px;
+  width: 490px;
+}
+
+.topbotones1 {
+  margin: 10px 0px 0px 90px;
+}
+
+#comollegar a, #folleto a {
+  color:black;
+  margin-top: 25px;
+  vertical-align: bottom;
+}
+
+.toppuntuacion, .topbotones {
+  width: 200px;
+  display: inline-block;
+  color:black;
+  margin-left: 25px;
+}
+
+.topbarra {
+  width: 470px;
+  margin-top: 0px;
+}
+
+.comollegar a, .folleto a, .reserva a{
+  color:black;
+}
+
+.top {
+  display:inline-block;
+  width: 516px;
+  background-color:#cdcdcd ;
+  height: 730px ;
+  vertical-align: top;
+  margin:20px 15px 0px 0px;
+  border-radius: 30px;
+}
+
+.top2{
+  display:inline-block;
+  width: 516px;
+  background-color:#cdcdcd ;
+  height: 730px ;
+  vertical-align: top;
+  margin:20px 0px 0px 0px;
+  border-radius: 30px;
+}
+
+.toptexto2 {
+  vertical-align: top;
+  width: 460px ;
+  font-size: 14px;
+  text-align: center;
+  margin: 0px 30px 0px 25px;
+  height: 300px;
+  color:black;
+}
+
+.toptexto2 h3 {
+  text-align: center;
+  font-size: 24px;
+}
+
+#touropinion {
+  line-height: 20px;
+  margin-top: 60px;
+  width: 1064px;
+}
+
+#form {
+  background-color: #77c2c2;
+  font-size: 18px;
+  border-radius: 30px;
+  margin: 20px 0px 20px 0px;
+  padding: 34px 0px 0px 0px;
+  width: 1064px;
+}
+
+.form1, .form2 {
+  display: inline-block;
+  width: 500px;
+}
+
+.form1 {
+  margin-right: 10px;
+}
+
+.form2 {
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.form1 {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}
+
+.form1 input {
+  border-radius: 10px;
+  padding: 15px 20px 15px 20px;
+  margin: 0px 0px 15px 0px;
+  border: none;
+  width: 475px;
+}
+
+.form2 {
+  margin: 15px 0px 0px 0px;
+  text-align: left;
+}
+
+.form2 textarea{
+  border-radius: 10px;
+  margin: -15px 0px 0px 0px;
+  width: 490px;
+}
+
+.form3 {    
+  margin-top: 10px;
+  margin-left: -30px;
+}
+
+.botonexp {
+  margin: 20px 50px 20px 30px;
+}
+
+/*<-----------------------------------------Eventos-------------------------------------->*/
+
+#cuerpoE {
+  width:1366px;
+  margin:0 auto;
+}
+
+#portadaE {
+  background-image: url("imagenes/eventos/portada.jpg");
+  display:inline-block;
+  width: 1366px;
+  height: 618px;
+}
+
+#iconoseventos{
+  width: 1064px;
+  margin: 0px auto;
+}
+
+#maineventos{
+  width: 1366px;
+}
+
+#descarga a, #contacto a{
+  margin-top: 0px;
+}
+
+
+.listaeventos{
+  text-align: center;
+  column-count: 4;
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+#estaciones {
+  display: inline-block;
+  width: 1366px;
+  text-align: center;
+  font-family: spartan, tahoma;
+  font-size: 17px;
+  column-count: 1;
+}
+
+.columna, .columnaizq, .columnader{
+  display:inline-block;
+  width: 271px;
+  vertical-align: top;
+  background-color: #7f7f7f;
+  height: 830px;
+  color:white;
+  margin: 0 auto;
+  padding: 0px;
+  padding-top: 0px;
+  margin: 30px 17px 0px 17px;
+}
+
+.columnaizq{
+  margin: 30px 17px 0px 0px;
+}
+
+.columnader{
+  margin: 30px 0px 0px 17px;
+}
+
+.columna p, .columnaizq p, .columnader p{
+  width:215px;
+  display:inline-block;
+  font-size: 15px;
+}
+
+#estaciones img{
+  border: 0px;
+ }
+
+ .descripcion{
+   width: 800px;
+   margin: 0 auto;
+   line-height: 25px;
+ }
+
+ #cuerpoE2 {
+  display: inline-block;
+  width: 1200px;
+  text-align: left;
+  background-image: url("imagenes/eventos/meses.jpg");
+  background-repeat: no-repeat;
+  height: 1713px;
+  margin-top: 50px;
+  padding-top: 95px;
+  padding-left: 88px;
+  background-position-x: left;
+}
+
+#cuerpoE2 h2 {
+  font-size: 28px;
+  margin: 60px 0px 0px 0px;
+}
+
+.intro {
+  font-family: spartan, tahoma;
+  font-size: 17px;
+  width: 750px;
+  text-align: center;
+  display: inline-block;
+}
+
+ .festivales {
+  background-color: #fff1d2 ;
+  width: 1113px;
+  height: 356px;
+  display: inline-block;
+  margin-top: 33px;
+  border-radius: 0px;
+}
+
+.festivales p{
+  width: 460px;
+  margin: 0px 0px 30px 0px
+}
+
+.izquierda, .derecha {
+  width:460px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.izquierda {
+  margin: 0px 57px 0px 57px;
+  color: black;
+}
+
+.izquierda h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.izquierda p {
+  line-height: 30px;
+}
+
+/*<-----------------------------------------Suscripción-------------------------------------->*/
+
+#cuerpoS {
+  background-color: white;
+  width:1366px;
+}
+
+#portadaS {
+  background-image: url("imagenes/suscripcion/portada.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  display:inline-block;
+  width: 1366px;
+  height: 620px;
+}
+
+#mainsub {
+  text-align: center;
+  width: 1366px;
+  margin: 0px;
+  font-family: spartan, tahoma;
+}
+
+.formizq, .formder {
+  display: inline-block;
+  margin: 0px auto;
+  text-align: left;
+  width: 620px;
+  height: 760px;
+  background-color: #9fbfd3;
+  border-radius: 20px;
+  padding: 0px 20px 0px 20px;
+  vertical-align: top;
+}
+
+.formizq input{
+  width: 540px;
+  font-size: 16px;
+  margin-top: 10px;
+  height: 60px;
+}
+
+.formizq{
+  margin-right: 30px;
+  background-position-y: 60px;
+}
+
+.formder{
+  padding: 35px;
+  padding-top: 45px;
+}
+
+.nate{
+  margin-top: 400px;
+  display: inline-block;
+}
+
+.nate2{
+  margin: -50px 0px 0px 35px;
+  padding-top: 10px;
+  width: 500px;
+}
+
+#botonsub {
+  margin: 30px 50px 30px 130px;
+}
+
+#empresa {
+  width: 540px;
+  height: 60px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+#prefecturas{
+  padding: 10px 0px 5px 0px;
+  width: 1280px;
+  margin: 0 auto;
+  overflow: scroll;
+  border-radius: 20px;
+}
+
+#prefecturas a{
+  -webkit-filter: grayscale(100%);
+  text-decoration: none;
+}
+
+#listaprefecturas{
+  height: 140px;
+  margin-top: 100px;
+}
+
+
+/*<-----------------------------------------Gracias-------------------------------------->*/
+
+
+.maingracias {
+  padding-top: 70px;
+}
+
+.maingracias {
+  width: 900px;
+}
+
+.gracias p{
+  width: 700px;
+  font-size: 18px;
+}
+
+.gracias h2{
+  margin-top: 50px;
+  font-size: 28px;
+}
